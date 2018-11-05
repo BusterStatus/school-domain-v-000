@@ -14,7 +14,8 @@ class School
     @roster[grade] << "#{student_name}"
   end
   
-  def grade
+  def grade(grade)
+    @roster[:9]
     
   end
   
