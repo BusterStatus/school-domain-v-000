@@ -14,9 +14,4 @@ class School
     @roster["#{grade}"] << "#{student_name}"
   end
   
-  def add_student
-    @student_name
-    @student_age
-  end
-  
 end
