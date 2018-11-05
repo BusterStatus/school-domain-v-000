@@ -19,7 +19,7 @@ class School
   end
   
   def sort
-    @roster.each do |grade,data|
+    @roster.each do |grade,students|
       sorted_data = data.sort
       sorted_data
     end
