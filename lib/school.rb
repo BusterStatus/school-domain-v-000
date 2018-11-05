@@ -20,8 +20,8 @@ class School
   
   def sort
     @roster.each do |grade,data|
+      grade.sort
       data.sort
-      grade
     end
   end
   
